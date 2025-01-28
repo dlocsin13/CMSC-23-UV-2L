@@ -23,19 +23,10 @@ def main():
             os.system("clear||cls")
             print("Please schedule a consultation.")
 
-<<<<<<< HEAD
 def addNumbers(a,b):
 	if type(a) == int and type(b) == int:
 		return a+b
 	else:
 		return
 
-=======
-def addNumbers(a, b):
-	if str(a).isnumeric() and str(b).isnumeric():
-		return a+b
-	else:
-		return
-	
->>>>>>> addNumbers
 main()
