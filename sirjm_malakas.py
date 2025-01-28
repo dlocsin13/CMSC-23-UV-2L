@@ -23,7 +23,10 @@ def main():
             os.system("clear||cls")
             print("Please schedule a consultation.")
 
-def addNumbers(a, b):
-	return a + b
-	
+def addNumbers(a,b):
+	if type(a) == int and type(b) == int:
+		return a+b
+	else:
+		return
+
 main()
